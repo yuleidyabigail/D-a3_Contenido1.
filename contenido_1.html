@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Contenido 1 | Proyecto de Vinculación </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Yuleidy Iñiguez " />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site" id="exe-node-22"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Proyecto de Vinculación</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Introducción</a></li>
+   <li><a href="bloque_academico.html" class="no-ch">Bloque Academico</a></li>
+   <li class="current-page-parent"><a href="da_3_creacin_de_circuito_bsico_de_movimiento_con_motores_dc.html" class="current-page-parent daddy">Día 3: Creación de circuito básico de movimiento con motores DC.</a>
+   <ul>
+      <li id="active"><a href="contenido_1.html" class="active no-ch">Contenido 1</a></li>
+   </ul>
+   </li>
+   <li><a href="bibliografia.html" class="no-ch">🔒Bibliografia</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="da_3_creacin_de_circuito_bsico_de_movimiento_con_motores_dc.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="bibliografia.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Contenido 1</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id47">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Día 3: Creación de circuito básico de movimiento con motores DC.</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta47_123_2" class="block iDevice_content">
+<div class="exe-text"><p style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif;"><strong>1. Contenido 1: Uso del MóduloL298N</strong></span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;">El L298N es un módulo controlador de motores que se utiliza mucho en proyectos de robótica, electrónica y automatización, su principal función es ayudar a controlar la velocidad y dirección de motores eléctricos, como los de corriente continua (DC) o los motores paso a paso. Esto lo hace gracias a un circuito llamado puente H, que permite manejar dos motores al mismo tiempo de forma independiente.</span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;"><strong>1.1 Fundamentación teórica</strong></span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;"><strong>1.1.1 ¿Qué es el Módulo L298N? </strong></span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;"><strong></strong></span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;">El L298N es un módulo controlador de motores ampliamente empleado en proyectos de electrónica, robótica y automatización, diseñado específicamente para facilitar el control de la velocidad y dirección de motores eléctricos de corriente continua (DC) o motores paso a paso, gracias a su capacidad de operar como un puente H dual integrado. Este módulo está basado en el circuito integrado L298N, el cual permite manejar hasta dos motores de manera independiente, soportando voltajes de alimentación de motor que oscilan entre los 5V y 35V, así como corrientes máximas de hasta 2A por canal, lo que lo convierte en una solución robusta y versátil para aplicaciones de mediana potencia.</span></p>
+<p style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif;"><strong>1.1.2 Partes del Módulo L298N</strong></span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;"><strong><img src="Imagen2.jpg" alt="partes del modulo" width="593" height="241" style="display: block; margin-left: auto; margin-right: auto;" /></strong></span></p>
+<ul>
+<li style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;"><strong>1. Conexiones para motores:<br />Motor 1: </strong>Se conecta a las salidas OUT1 y OUT2, estas salidas permiten controlar la dirección y velocidad del primer motor.<strong><br />Motor 2: </strong>Se conecta a las salidas OUT3 y OUT4, estas salidas permiten controlar el segundo motor de manera independiente.</span></li>
+<li style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;"><strong>Conexiones de alimentación:<br />VCC:</strong> Entrada para alimentar los motores, con un rango de voltaje de 5V a 35V.</span><br /><span style="font-family: arial, helvetica, sans-serif;"><strong>GND:</strong> Conexión a tierra común para el módulo.<strong><br />5V: </strong>Salida de 5V y si es mayor a 7V en VCC; o entrada de 5V si no se supera este límite en VCC.</span></li>
+<li style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;"><strong>Pines de control:<br />IN1 e IN2: </strong>Controlan la dirección del Motor 1 (conectado a OUT1 y OUT2).<strong><br />IN3 e IN4: </strong>Controlan la dirección del Motor 2 (conectado a OUT3 y OUT4).<strong><br />ENA: </strong>Habilitador del Motor 1. Si se conecta a una señal PWM, permite controlar su velocidad.<strong><br />ENB: </strong>Habilitador del Motor 2. También se puede conectar a una señal PWM para ajustar su velocidad.</span></li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id48">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">EJEMPLO PRÁCTICO</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta48_124_2" class="block iDevice_content">
+<div class="exe-text"><div class="exe-fx exe-paginated">
+<h2 style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;">1.2 Ejemplo práctico</span></h2>
+<p style="text-align: justify;"><br /><span style="font-family: arial, helvetica, sans-serif;"><strong>Paso 1: Conexión del L298N</strong></span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;"><strong>Conecta el módulo L298N al Arduino y a los motores siguiendo las conexiones indicadas:</strong></span><br /><span style="font-family: arial, helvetica, sans-serif;"><strong>IN1</strong> al pin 9 del Arduino.</span><br /><span style="font-family: arial, helvetica, sans-serif;"><strong>IN2</strong> al pin 8 del Arduino.</span><br /><span style="font-family: arial, helvetica, sans-serif;"><strong>IN3</strong> al pin 7 del Arduino.</span><br /><span style="font-family: arial, helvetica, sans-serif;"><strong>IN4</strong> al pin 6 del Arduino.</span><br /><span style="font-family: arial, helvetica, sans-serif;"><strong>Conecta los motores DC:</strong></span><br /><span style="font-family: arial, helvetica, sans-serif;">Motor A: Salidas<strong> OUT1</strong> y <strong>OUT2</strong> del L298N.</span><br /><span style="font-family: arial, helvetica, sans-serif;">Motor B: Salidas <strong>OUT3</strong> y<strong> OUT4</strong> del L298N.</span><br /><span style="font-family: arial, helvetica, sans-serif;"><strong>Alimenta el módulo L298N:</strong></span><br /><span style="font-family: arial, helvetica, sans-serif;">Conecta la entrada <strong>12V</strong> a una batería externa (6V-12V).</span><br /><span style="font-family: arial, helvetica, sans-serif;">Conecta <strong>GND</strong> al GND del Arduino.</span><br /><span style="font-family: arial, helvetica, sans-serif;">Conecta el pin<strong> 5V</strong> del L298N al pin <strong>5V</strong> del Arduino (esto alimentará el Arduino).</span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;"><strong>Esquema de Conexiones del Circuito</strong></span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;"><strong><img src="Imagen3.jpg" alt="ACTIVIDAD" width="602" height="276" style="display: block; margin-left: auto; margin-right: auto;" /></strong></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;"><strong>Paso 2: Prueba de Funcionamiento</strong></span><br /><span style="font-family: arial, helvetica, sans-serif;">Utiliza el siguiente código para que los motores giren <strong>hacia adelante.</strong></span></p>
+<ul>
+<li><span style="font-family: arial, helvetica, sans-serif;"><strong>Código para Motores hacia Adelante</strong><strong></strong></span>
+<table border="1" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<p><span style="color: #ff0000; font-family: arial, helvetica, sans-serif;">// Pines de conexión</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">#define IN1 9  // Dirección Motor A</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">#define IN2 8  // Dirección Motor A</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">#define IN3 7  // Dirección Motor B</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">#define IN4 6  // Dirección Motor B</span></p>
+<p><span style="color: #ff0000; font-family: arial, helvetica, sans-serif;">void setup() <span style="color: #0000ff;">{</span></span></p>
+<p><span style="color: #339966; font-family: arial, helvetica, sans-serif;">  // Configurar pines como salidas</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  pinMode(IN1, OUTPUT);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  pinMode(IN2, OUTPUT);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  pinMode(IN3, OUTPUT);</span></p>
+</td>
+<td style="width: 50%;">
+<p><span style="font-family: arial, helvetica, sans-serif;">pinMode(IN4, OUTPUT);</span></p>
+<p><br /><span style="font-family: arial, helvetica, sans-serif;">  <span style="color: #339966;">// Motores hacia adelante</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  digitalWrite(IN1, HIGH);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  digitalWrite(IN2, LOW);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  digitalWrite(IN3, HIGH);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  digitalWrite(IN4, LOW);</span></p>
+<p><span style="color: #0000ff; font-family: arial, helvetica, sans-serif;">}</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;"><span style="color: #ff0000;">void loop</span>() <span style="color: #0000ff;">{</span></span></p>
+<p><span style="color: #0000ff; font-family: arial, helvetica, sans-serif;">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</div>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id49">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">ACTIVIDAD 1</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta49_125_2" class="block iDevice_content">
+<div class="exe-text"><p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;"><strong>Actividad 1 </strong></span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;"><strong>Objetivo:</strong> Construir un circuito para controlar dos motores DC utilizando el módulo L298N, poniendo en práctica los conocimientos adquiridos y verificando su funcionamiento mediante pruebas simples y claras.</span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;"><strong>Instrucciones:</strong></span></p>
+<ol>
+<li style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;">Diseña el circuito siguiendo los pasos explicados en el esquema proporcionado.</span></li>
+<li style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;">Asegúrate de conectar correctamente los pines del L298N, los motores DC y la alimentación.</span></li>
+<li style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;">Sube el código al Arduino y alimenta el circuito.</span></li>
+<li style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;">Verifica el funcionamiento del circuito y documenta el comportamiento de los motores.</span></li>
+<li style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;">Toma fotos del circuito y registra tus observaciones en un informe breve.<img src="e77fe1a385162c51dbb4fe3e851cefb4.jpg" alt="LOGRO" width="235" height="220" style="display: block; margin-left: auto; margin-right: auto;" /></span></li>
+</ol></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id50">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">ACTIVIDAD 2</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta50_126_2" class="block iDevice_content">
+<div class="exe-text"><p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;"><strong>Actividad 2: Control de Velocidad y Dirección de Motores DC con el Módulo L298N</strong></span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;"><strong>Objetivo:</strong></span><br /><span style="font-family: arial, helvetica, sans-serif;">Aprender a controlar la velocidad y dirección de dos motores DC utilizando el módulo L298N y un Arduino.</span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;"><strong>Instrucciones:</strong></span></p>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;"><strong>1. Diseño del Circuito:</strong></span><br /><span style="font-family: arial, helvetica, sans-serif;">Diseña un circuito básico conectando dos motores DC al módulo L298N siguiendo el esquema proporcionado.</span><br /><span style="font-family: arial, helvetica, sans-serif;"><strong>2. Configuración del Código:</strong></span><br /><span style="font-family: arial, helvetica, sans-serif;">Copia y sube el siguiente código al Arduino utilizando el IDE:</span></p>
+<table style="height: 972px; width: 100%;">
+<tbody>
+<tr style="height: 972px;">
+<td style="width: 50.1842%; height: 972px;">
+<p></p>
+<p><span style="color: #008000; font-family: arial, helvetica, sans-serif;">// Definición de pines para el módulo L298N</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">#define IN1 9   // <span style="color: #008000;">Motor A Dirección</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">#define IN2 8   // <span style="color: #008000;">Motor A Dirección</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">#define IN3 7   // <span style="color: #008000;">Motor B Dirección</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">#define IN4 6   //<span style="color: #008000;"> Motor B Dirección</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  pinMode(IN2, OUTPUT);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  pinMode(IN3, OUTPUT);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  pinMode(IN4, OUTPUT);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  pinMode(ENA, OUTPUT);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  pinMode(ENB, OUTPUT);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  <span style="color: #008000;">// Inicializar motores parados</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  detenerMotores();</span></p>
+<p><span style="color: #0000ff; font-family: arial, helvetica, sans-serif;">}</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;"><span style="color: #ff0000;">void loop()</span> <span style="color: #0000ff;">{</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  <span style="color: #008000;">// Motor A hacia adelante, Motor B hacia atrás</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  digitalWrite(IN1, HIGH);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  digitalWrite(IN2, LOW);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  digitalWrite(IN3, LOW);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  digitalWrite(IN4, HIGH);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  analogWrite(ENA, 150); // <span style="color: #008000;">Velocidad 60% Motor A</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  analogWrite(ENB, 150); // <span style="color: #008000;">Velocidad 60% Motor B</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  delay(2000); //<span style="color: #008000;"> Mantener movimiento durante 2 segundos</span></span></p>
+<p><span style="color: #008000; font-family: arial, helvetica, sans-serif;">  // Motor A hacia atrás, Motor B hacia adelante</span></p>
+</td>
+<td style="width: 49.8158%; height: 972px;">
+<p><span style="font-family: arial, helvetica, sans-serif;">#define ENA 5  <span style="color: #008000;"> // Motor A Velocidad (PWM)</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">#define ENB 3  <span style="color: #008000;"> // Motor B Velocidad (PWM)</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;"><span style="color: #ff0000;">void setup()</span><span style="color: #0000ff;"> {</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  <span style="color: #008000;">// Configurar los pines como salidas</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  pinMode(IN1, OUTPUT);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;"> digitalWrite(IN1, LOW);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  digitalWrite(IN2, HIGH);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  digitalWrite(IN3, HIGH);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  digitalWrite(IN4, LOW);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  analogWrite(ENA, 200); <span style="color: #008000;">// Velocidad 80% Motor A</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  analogWrite(ENB, 200);<span style="color: #008000;"> // Velocidad 80% Motor B</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  delay(2000);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  <span style="color: #008000;">// Detener motores</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  <span style="color: #ff0000;">detenerMotores()</span>;</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  delay(1000);</span></p>
+<p><span style="color: #0000ff; font-family: arial, helvetica, sans-serif;">}</span></p>
+<p><span style="color: #008000; font-family: arial, helvetica, sans-serif;">// Función para detener los motores</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;"><span style="color: #ff0000;">void detenerMotores()</span> <span style="color: #0000ff;">{</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  digitalWrite(IN1, LOW);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  digitalWrite(IN2, LOW);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  digitalWrite(IN3, LOW);</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">  digitalWrite(IN4, LOW);</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;"><strong>3. Prueba y Verificación:</strong></span><br /><span style="font-family: arial, helvetica, sans-serif;">Alimenta el circuito y observa el funcionamiento de los motores.</span><br /><span style="font-family: arial, helvetica, sans-serif;">Realiza pruebas variando las velocidades configuradas en las líneas analogWrite() del código.</span><br /><span style="font-family: arial, helvetica, sans-serif;"><strong>4.Documentación:</strong></span><br /><span style="font-family: arial, helvetica, sans-serif;">Toma fotos del circuito montado y del comportamiento de los motores en acción.</span><br /><span style="font-family: arial, helvetica, sans-serif;">Escribe un breve informe</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;"><img src="e77fe1a385162c51dbb4fe3e851cefb4.jpg" alt="LOGRO" width="235" height="220" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+<p><a href="da_3_creacin_de_circuito_bsico_de_movimiento_con_motores_dc.html"></a></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="da_3_creacin_de_circuito_bsico_de_movimiento_con_motores_dc.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="bibliografia.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>
